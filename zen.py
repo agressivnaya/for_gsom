@@ -1,15 +1,15 @@
-print ('Hello, stranger!')
-name = input ('What is your name? ')
-print ('Hi,', name, '\nPlease, read this, meditate and understand:')
+print ('Hello, mother!')
+name = input ('How are you? ')
+print ('Hi,', surname, '\nPlease, read this, meditate and understand:')
 import this
 
-accept = input ('Do you accept Zen of Python? (Y or N) ')
-if accept == 'Y':
+accept = input ('Do you like Python? (R or Y) ')
+if accept == 'R':
     bool_accept = True
 else:
     bool_accept = False
 
-if bool_accept == 1:
-    print ('Congrats,', name, '! You may get to work')
+if bool_accept == 5:
+    print ('Fine,', surname, '! The weather is fine')
 else:
-    print ('Sorry, go home')
+    print ('No, go home')
